@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: black;
+    color: #ffffff;
+  }
+  header {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+ 
+  }
+  #header-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -20px;
+    background-color: transparent;
+  }
+  
+  #img-logo {
+    width: 141px;
+    height: 104px;
+    margin-left: 32px;
+   }
+
+  
+  #menu ul {
+    display: flex;
+    gap: 45px;
+    list-style: none;
+  
+    margin-right: 30px;
+  }
+  
+  #menu ul li a {
+    color: rgb(31 56 193);
+    text-decoration: none;
+    font-family: "Black Ops One", cursive;
+    font-size: 20px;
+  }
+  
+  #text-img-header {
+    width: 100%;
+    height: 89vh;
+    background-color: black;
+    overflow: hidden;
+  
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  #text-img-header #imagens-header {
+    width: 500%;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+  }
+  
+  #text-img-header #imagens-header img {
+    width: 19.9%;
+ 
+  }
+  
+  
+  
+  #text-img-header{
+    width: 100%;
+    height: 573px;
+    background-color: black;
+    overflow: hidden;
+    
+    
+    color: #ffffff;
+    text-align: center;
+    
+   
+  
+  }
+  
+  #text-img-header #imagens-header{
+   width: 500%;
+   animation-name: animacao;
+   animation-duration: 20s;
+   animation-iteration-count: infinite;
+   
+  }
+  
+  #text-img-header #imagens-header img{
+    width: 19.9%;
+  
+  }
+  
+  @keyframes animacao {
+    0% {
+      margin-left: 0;
+    }
+    20% {
+      margin-left: 0;
+    }
+    25% {
+      margin-left: -100%;
+    }
+    45% {
+      margin-left: -100%;
+    }
+    50% {
+      margin-left: -200%;
+    }
+    70% {
+      margin-left: -200%;
+    }
+    75% {
+      margin-left: -300%;
+    }
+    95% {
+      margin-left: -300%;
+    }
+    100% {
+      margin-left: -400%;
+    }
+  }
+  
+  
+  #container-one {
+    display: flex;
+    margin-top: 11px;
+  }
+
+  #container-one-text{
+    width: 50%;
+    margin-left: 20px;
+    margin-top: 25px;
+    
+  }
+  #container-one-text p, #container-second-text p{
+    font-size: 20px;
+  }
+
+  #container-one-text button{
+    margin-top: 10px;
+    margin-bottom: 27px;
+  }
+
+  #container-second-text{
+    width: 50%;
+    margin-left: 80px;
+    margin-top: 25px;
+    text-align:initial;
+    
+  }
+
+  #container-second-text p {
+    font-size: 27px;
+    margin-top: 50px;
+  }
+
+  #container-second-graphic{
+    margin-top: 120px;
+    margin-left: 27px;
+  }
+
+  #estatística h3{
+    
+    font-size: 28px;
+   
+  }
+  .photo-obj-ods img {
+    width: 30%;
+    height: 30%;
+  }
+  
+  .photo-obj-ods:target {
+    position: fixed;
+    width: 50%;
+    top: 15px;
+    left: 25%;
+  }
+  
+  .text{
+    position: relative;
+    z-index: 10;
+    color: 065fd4;
+    display: grid;
+    place-items: center;
+    margin-bottom: -536px;
+    margin-top: 129px;
+    width: 70%;
+    margin-left: 77px;
+    text-align: center;
+  }
+  h1{
+    font-family: 'Black Ops One', cursive;
+    font-size: 150px;
+     }
+
+  h2{
+    font-family: 'Sedgwick Ave', cursive;
+    font-size: 37px;
+  }
+
+  #Projeto, #estatística, #Solucao, #sobre{
+    
+    border: solid 1px blue;;
+    height: 12%;
+    padding-top: 15px;
+  }
+
+  .botao{
+    border: solid 1px blue;
+    border-radius: 20px;
+    height: 44px;
+    width: 150px;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    padding: 7px;
+    margin-left: 243px;
+}
+.botao:hover{
+    background-color: blue;
+    color: white;
+    transform: scale(1.2)
+}
+
+#container-second{
+    display: flex;
+}
+
+.itens li{
+    margin-left: 40px;
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+#subtitulo-itens{
+    font-size: 31px;
+    margin-bottom: 8px;
+}
+
+#video{
+    margin-top: 46px;
+    margin-left: 16px;
+}
+
+#img-solucao{
+    
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+.photos-solucoes img{
+    width: 79px;
+    height: 83px;
+}
+.photos-solucoes{
+    padding-bottom: 29px;
+    margin-left: 22px;
+}
+
+  
+  
+  /*#photos {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+    background-color: black;
+    overflow: hidden;
+    color: aliceblue;
+    border: solid 10px;
+    text-align: center;
+  }
+  .text-header {
+    padding-top: 56px;
+  }
+  #photos #img-header {
+    width: 500%;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+  }
+  #img-header img {
+    width: 19.9%;
+  }
+  
+  @keyframes animacao {
+    0% {
+      margin-left: 0;
+    }
+    20% {
+      margin-left: 0;
+    }
+    25% {
+      margin-left: -100%;
+    }
+    45% {
+      margin-left: -100%;
+    }
+    50% {
+      margin-left: -200%;
+    }
+    70% {
+      margin-left: -200%;
+    }
+    75% {
+      margin-left: -300%;
+    }
+    95% {
+      margin-left: -300%;
+    }
+    100% {
+      margin-left: -400%;
+    }
+  }*/
+  
